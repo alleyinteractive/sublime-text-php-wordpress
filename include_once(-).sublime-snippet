@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[include_once( '${1:file}' );$0]]></content>
+    <content><![CDATA[include_once( ${1:${2:__DIR__} . '/${3:file}.php'} );$0]]></content>
     <tabTrigger>incl1</tabTrigger>
     <scope>source.php</scope>
     <description>include_once …</description>
