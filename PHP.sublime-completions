@@ -1,6 +1,5 @@
 {
 	"scope": "source.php - variable.other.php",
-
 	"completions": [
 		{
 			"trigger": "_",
@@ -6305,6 +6304,38 @@
 		{
 			"trigger": "zlib_get_coding_type",
 			"contents": "zlib_get_coding_type()"
+		},
+		{
+			"trigger": "array",
+			"contents": "array(${1: ${2:\\$item} })"
+		},
+		{
+			"trigger": "die",
+			"contents": "die(${1: ${2:\\$status} })"
+		},
+		{
+			"trigger": "empty",
+			"contents": "empty( \\$${1:var} )"
+		},
+		{
+			"trigger": "eval",
+			"contents": "eval( ${1:\\$code} )"
+		},
+		{
+			"trigger": "exit",
+			"contents": "exit(${1: ${2:\\$status} })"
+		},
+		{
+			"trigger": "isset",
+			"contents": "isset( \\$${1:var}${2:, ${3:...}} )"
+		},
+		{
+			"trigger": "list",
+			"contents": "list( \\$${1:var}${2:, ${3:...}} )"
+		},
+		{
+			"trigger": "unset",
+			"contents": "unset( \\$${1:var}${2:, ${3:...}} )"
 		}
 	]
 }
