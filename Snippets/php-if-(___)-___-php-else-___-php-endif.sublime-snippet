@@ -3,7 +3,7 @@
 	$2
 <?php else : ?>
 	$0
-<?php endif ?>]]></content>
+<?php endif; ?>]]></content>
     <tabTrigger>ifelse</tabTrigger>
     <scope>text.html - source</scope>
     <description>&lt;?php if (…) ?&gt; … &lt;?php else ?&gt; … &lt;?php endif ?&gt;</description>
