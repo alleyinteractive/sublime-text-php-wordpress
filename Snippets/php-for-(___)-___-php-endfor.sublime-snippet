@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[<?php for ( \$${1:i} = ${2:0}; \$${1:i} < $3; \$${1:i}++ ) : ?>
 	${0}
-<?php endfor ?>]]></content>
+<?php endfor; ?>]]></content>
     <tabTrigger>for</tabTrigger>
     <scope>text.html - source</scope>
     <description>&lt;?php for (…) … &lt;?php endfor ?&gt;</description>

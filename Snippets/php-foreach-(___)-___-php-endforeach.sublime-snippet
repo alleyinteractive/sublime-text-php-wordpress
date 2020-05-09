@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[<?php foreach ( \$${1:variable} as \$${2:key}${3: => \$${4:value}} ) : ?>
 	${0}
-<?php endforeach ?>]]></content>
+<?php endforeach; ?>]]></content>
     <tabTrigger>foreach</tabTrigger>
     <scope>text.html - source</scope>
     <description>&lt;?php foreach (…) … &lt;?php endforeach ?&gt;</description>
